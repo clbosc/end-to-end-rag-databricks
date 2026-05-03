@@ -1,4 +1,4 @@
-# 🤖 RAG Research Assistant - ML Thesis
+# 🤖 RAG Research Assistant 
 
 This project implements an end-to-end **Retrieval-Augmented Generation (RAG)** architecture on the **Databricks** platform. It allows for intelligent querying of technical literature (specifically the *Big Book of Machine Learning*) using state-of-the-art foundation models.
 
