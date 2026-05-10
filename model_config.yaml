@@ -1,0 +1,10 @@
+delta_table_name: db_workspace_claire.default.chunked_data
+embedding_endpoint: bge_base_en_v1_5
+llm_endpoint: databricks-meta-llama-3.1-405b-instruct
+llm_prompt_template: "You are an assistant that answers questions based on a specific\
+  \ document. \n    Use the following pieces of retrieved context to answer the question.\
+  \ \n    If you don't know the answer, just say you don't know.\n    \n    Context:\
+  \ {context}"
+vector_index_path: db_workspace_claire.default.big_book_of_machine_learning_index
+vector_search_endpoint: vector_search_endpoint_name
+volume_path: /Volumes/db_workspace_claire/default/these/2025-09-eb-big-book-of-machine-learning-3rd-ed.pdf
